@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <option name="ACTIVE_PROFILES" value="local" />
+    <module name="cart-service" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.cart.CartApplication" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.hmall.cart.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

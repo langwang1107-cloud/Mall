@@ -1,0 +1,16 @@
+server:
+  port: 8086
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp连接池支持
+hm:
+  swagger:
+    title: 搜索服务接口文档
+    package: com.hmall.search.controller
+spring:
+  rabbitmq:
+    host: 192.168.150.101 # 你的虚拟机IP
+    port: 5672 # 端口
+    virtual-host: /hmall # 虚拟主机
+    username: hmall # 用户名
+    password: 123 # 密码
